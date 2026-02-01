@@ -1,0 +1,5 @@
+str = input("")
+x = str.lower().replace('.', '').replace(',', '').split()
+y = set(x)
+y_count = len(y)
+print(y_count)
